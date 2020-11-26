@@ -31,7 +31,7 @@ const User = ({ user, loading, getUser, getUserRepos, repos, match }) => {
     public_gists,
     hireable,
     company,
-  } = this.props.user;
+  } = user;
 
   if (loading) return <Spinner></Spinner>;
 
